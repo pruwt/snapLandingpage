@@ -1,0 +1,60 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body,button{
+  font-family: 'Epilogue', sans-serif;
+}
+nav, .nav-links, .left-nav{
+  display: flex;
+}
+nav, .left-nav{
+  justify-content: space-around;
+align-items: center;
+height: 15vh;
+}
+/* .left-nav{
+  margin:13px;
+} */
+.nav-links, .left-nav{
+  gap: 3rem;
+  list-style: none;
+  font-size: 0.8em;
+}
+a,.nav-btn{
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  text-decoration-color: white;
+}
+a:hover,.nav-btn:hover{
+  color:hsl(0, 0%, 8%) ;
+  cursor: pointer;
+}
+.left-links{
+  list-style: none;
+  /* margin:13px; */
+}
+.nav-btn{
+  width: 8vw;
+  height: 40px;
+  background-color: transparent;
+  /* margin: 13px; */
+  border-radius: 10px;
+  border-color: hsl(0, 0%, 41%);
+  border: 1.5px solid;
+}
+
+
+.dropdown-list{
+  display:none;
+}
+
+/* ham menu */
